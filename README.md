@@ -1,5 +1,7 @@
 # LuckyCAT_EtherCAT_Master
 
+**注意**：该项目全由大肥鱼（DeepSeek-V4.1-Flash）编写、调试和验证，切勿将项目用于生产环境。
+
 面向 **LuckyCAT（HPM5E31）** 开发板的 EtherCAT 主站参考工程：CherryECAT 协议栈 +
 CiA402 周期同步速度（CSV）控制 + SSD1306 OLED 状态显示 + shell 调试命令行。
 
