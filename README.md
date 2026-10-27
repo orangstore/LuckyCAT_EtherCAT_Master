@@ -1,5 +1,7 @@
 # LuckyCAT_EtherCAT_Master
 
+![x](./img/dafeiyu.png) 
+
 **注意**：该项目全由大肥鱼（DeepSeek-V4.1-Flash）编写、调试和验证，切勿将项目用于生产环境。
 
 面向 **LuckyCAT（HPM5E31）** 开发板的 EtherCAT 主站参考工程：CherryECAT 协议栈 +
@@ -249,25 +251,6 @@ motor cycle 1000     # 启动前设置
 逐文件说明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与
 [docs/07-provenance.md](docs/07-provenance.md)。
 
-## 11. 发布包
-
-发布压缩包 `LuckyCAT_EtherCAT_Master_v1.0.0.zip` 包含：
-
-```
-LuckyCAT_EtherCAT_Master/
-├── ...                    源码（与 git tag v1.0.0 一致）
-└── firmware/
-    ├── LuckyCAT_EtherCAT_Master.elf
-    ├── LuckyCAT_EtherCAT_Master.bin
-    └── SHA256SUMS.txt
-```
-
-预编译固件对应 tag `v1.0.0`，烧录方式：
-
-```bash
-python tools/flash.py --elf firmware/LuckyCAT_EtherCAT_Master.elf
-```
-
-## 12. 变更记录
+## 11. 变更记录
 
 见 [CHANGELOG.md](CHANGELOG.md)。
