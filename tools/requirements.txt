@@ -1,0 +1,3 @@
+# Tools in this directory only need pyserial for the serial console helper.
+# ecat_slave_sim.py / wpc.py use ctypes + Npcap and have no pip dependency.
+pyserial>=3.5

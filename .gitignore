@@ -1,0 +1,30 @@
+# build artifacts
+build/
+build_*/
+apps/*/software/build/
+apps/*/software/build_*/
+**/output/
+*.elf
+*.bin
+*.hex
+*.map
+*.asm
+
+# python
+__pycache__/
+*.py[cod]
+tools/pylibs/
+.venv/
+venv/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# logs and local captures
+*.log
+*.pcap
+sim*.log
